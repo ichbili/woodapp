@@ -1,0 +1,85 @@
+.header {
+    background-color: #000;
+    display: flex;
+    height: 4.5rem;
+    padding: 0 10rem 0 10rem;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    @include respond(phone) {
+        padding: 0 1rem 0 1rem;
+    }
+    &__nav-btn {
+        font-family: "Raleway", sans-serif;
+        font-weight: 900;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        display: inline-block;
+        text-decoration: none;
+        padding: 1.1rem;
+        color: $color-grey-dark-2;
+        text-transform: uppercase;
+        &:hover {
+            color: $color-accent-1;
+        }
+        &--is-active {
+            color: $color-accent-1;
+            border-bottom: 2px solid $color-accent-1;
+        }
+    }
+
+    &__nav-cart {
+        font-family: "Raleway", sans-serif;
+        font-weight: 900;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        display: inline-block;
+        text-decoration: none;
+        padding: 0 0.9rem 0 0.9rem;
+        color: $color-grey-dark-2;
+        border: 2px solid $color-grey-dark-3;
+        border-radius: 2rem;
+        margin: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &:hover {
+            border: 2px solid $color-accent-1;
+        }
+        &--is-active {
+            border: 2px solid $color-accent-1;
+        }
+    }
+}
+
+.cart-icon {
+    display: flex;
+    flex-direction: column;
+}
+.cart-data {
+    flex: 1;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    padding: 0 0 0 0.7rem;
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    @include respond(phone) {
+        font-size: 1.2rem;
+    }
+    &__article {
+        padding: 0 0.3rem 0 0.3rem;
+        border-right: 0.7px solid $color-grey-dark-2;
+        &--green {
+            color: green;
+            font-weight: 800;
+        }
+    }
+    &__price {
+        padding: 0 0.3rem 0 0.3rem;
+        border-left: 0.7px solid $color-grey-dark-2;
+        &--yellow {
+            color: $color-accent-1;
+            font-weight: 800;
+        }
+    }
+}

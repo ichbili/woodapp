@@ -1,0 +1,109 @@
+.home {
+    font-family: "Raleway", sans-serif; 
+    text-decoration: none;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    // flex-grow: 1;
+    // justify-content: center;
+    &__gtitre {
+        text-align: left;
+        font-weight: 100;
+        font-size: 4rem;
+        margin: 0;
+        backface-visibility: hidden;
+        display: block;
+        animation-name: moveInLeft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+        
+        @include respond(phone) {
+            font-size: 2.5rem;
+            align-self: center;
+        }
+        // @include respond(phone) {
+        //     letter-spacing: 
+        // }
+    }
+    &__ptitre {
+        text-align: left;
+        display: block;
+        font-weight: 100;
+        margin: 0;
+        letter-spacing: 0.6rem;
+        backface-visibility: hidden;
+
+        animation: moveInRight 1s ease-out;
+
+        @include respond(phone) {
+            letter-spacing: 0.3rem;
+        }
+        
+    }
+    &__linkbox {
+        text-align: center;
+    }
+    &__btn {
+        color: $color-white;
+        &,
+        &:link,
+        &:visited {
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 1.5rem 4rem;
+            display: inline-block;
+            border-radius: 1.2rem;
+            transition: all .2s;
+            position: relative;
+            font-size: $default-font-size;
+            margin-top: 5rem;
+            //Change for the <button> element
+            border: none;
+            cursor: pointer;
+        }
+        
+        &:hover {
+            //font-size: 1.7rem;
+            transform: translateY(-3px);
+            box-shadow: 0 1rem 2rem rgba($color-black,.2);
+            &::after {
+                transform: scaleX(1.4) scaleY(1.6);
+                opacity: 0;
+            }
+        }
+        
+        &:active,
+        &:focus {
+            outline: none;
+            transform: translateY(-1px);
+            box-shadow: 0 .5rem 1rem rgba($color-black,.2);
+        }
+
+        &--blue {
+            background-color: $color-accent-1;
+
+    
+            &::after {
+                background-color: $color-accent-1;
+            }
+        }
+
+        &::after {
+            content: "";
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            border-radius: 1.2rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: all .4s;
+        }
+        
+        &--animated {
+            animation: moveInBottom .5s ease-out .75s;
+            animation-fill-mode: backwards;
+        }
+    }
+}

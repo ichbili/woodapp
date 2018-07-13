@@ -1,0 +1,526 @@
+{
+    "families": [
+        { "id": "1", "name": "Accajou" },
+        { "id": "2", "name": "Noyer" },
+        { "id": "3", "name": "Loupe" },
+        { "id": "4", "name": "Teck" },
+        { "id": "5", "name": "Bois durs" },
+        { "id": "6", "name": "Exotique" },
+        { "id": "7", "name": "Palissandre" },
+        { "id": "8", "name": "Bois tendre" },
+        { "id": "9", "name": "Bois populaires" },
+        { "id": "10", "name": "Chêne" }
+    ],
+    "products": [
+      {
+        "ref": "1",
+        "familyId": "1",
+        "nameFr": "Ronce d'acajou",
+        "nameEn": "Mahogany",
+        "thickness": "0.7mm",
+        "countries": "Côte d'Ivoire, Ghana, Cameroun, Angola, Guinée",
+        "description": "Utilisation seulement en placage (meubles de style Chippendale, Louis XVI, Empire, Régence)",
+        "usages": "Ebénesterie et marqueterie",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 7.9,
+        "inStock": true
+      },
+      {
+        "ref": "2",
+        "familyId": "1",
+        "nameFr": "Acajou d'Afrique",
+        "nameEn": "Mahogany",
+        "thickness": "0.7mm",
+        "countries": "Côte d'Ivoire, Ghana, Cameroun, Angola, Guinée",
+        "description": "Peut être parfois ondé",
+        "usages": "Menuiserie fine, ébénisterie, construction navale, placage",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 8.9,
+        "inStock": true
+      },
+      {
+        "ref": "3",
+        "familyId": "1",
+        "nameFr": "Acajou d'Amérique",
+        "nameEn": "Bigleaf mahogany",
+        "thickness": "0.7mm",
+        "countries": "Pérou, Brésil, Amérique centrale, Bolivie, Martinique",
+        "description": "Peut être moiré ou moucheté",
+        "usages": "Utilisation en ébénisterie en placage comme en massif",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 9.9,
+        "inStock": true
+      },
+      {
+        "ref": "4",
+        "familyId": "1",
+        "nameFr": "Acajou de Cuba",
+        "nameEn": "Cuban Mahogany",
+        "thickness": "0.7mm",
+        "countries": "Cuba, Jamaïque, Sain Domingue",
+        "description": "Bois rare",
+        "usages": "Ébénisterie de style en placage (Chippendale, Louis XVI et empire)",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 7.9,
+        "inStock": true
+      },
+      {
+        "ref": "5",
+        "familyId": "4",
+        "nameFr": "Afromasia",
+        "nameEn": "Golden Teak",
+        "thickness": "0.7mm",
+        "countries": "Côte d'voire, Ghana, République Centre Afrique, Cameroun, Congo, Nigéria, Zaïre",
+        "description": "Souvent flammé",
+        "usages": "Utilisé dans l'ameublement, menuiserie fine et parquets",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 8.9,
+        "inStock": true
+      },
+      {
+        "ref": "6",
+        "familyId": "5",
+        "nameFr": "Amarante",
+        "nameEn": "Purpleheart",
+        "thickness": "0.7mm",
+        "countries": "Panama, Guyane, Surinam, Brésil, Colombie",
+        "description": "Se travaille assez bien - le bois frai est gris/beige, la couleur violette ne se révèle qu'au soleil",
+        "usages": "Utilisation en marqueterie, ameublement, tournage",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 9.9,
+        "inStock": true
+      },
+      {
+        "ref": "7",
+        "familyId": "5",
+        "nameFr": "Amarelo",
+        "nameEn": "Boxwood",
+        "thickness": "0.7mm",
+        "countries": "",
+        "description": "Guyane, Brésil",
+        "usages": "Application en ébénisterie, tabletterie, tournage et marqueterie",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 7.9,
+        "inStock": true
+      },
+      {
+        "ref": "8",
+        "familyId": "3",
+        "nameFr": "Loupe d'Amboine",
+        "nameEn": "Amboina burl",
+        "thickness": "0.7mm",
+        "countries": "Indes, malaisie, Philippines, Vietnam",
+        "description": "Loupe très rare",
+        "usages": "Ne se travaille seulement qu'en placage",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 8.9,
+        "inStock": true
+      },
+      {
+        "ref": "9",
+        "familyId": "6",
+        "nameFr": "Angélique",
+        "nameEn": "",
+        "thickness": "0.7mm",
+        "countries": "Guyane, Surinam, Brésil",
+        "description": "Bois allant du brun clair au gris violacé",
+        "usages": "Utilisé en menuiserie extérieure, construction navale, escaliers, tonnellerie et placage",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 9.9,
+        "inStock": true
+      },
+      {
+        "ref": "10",
+        "familyId": "7",
+        "nameFr": "Aniegre",
+        "nameEn": "",
+        "thickness": "0.7mm",
+        "countries": "Côte d'Ivoire, Congo, Angola, Nigéria",
+        "description": "Bois rose clair qui se travaille facilement",
+        "usages": "Surtout en placage (voir placage teinté pour substituer au noyer uni, au merisier et au chêne)",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 7.9,
+        "inStock": true
+      },
+      {
+        "ref": "11",
+        "familyId": "6",
+        "nameFr": "Avodiré",
+        "nameEn": "Congo, Ghana, Cameroun, Nigéria, Côte d'Ivoire",
+        "thickness": "0.7mm",
+        "countries": "",
+        "description": "Se travaille facilement",
+        "usages": "ébénisterie, en menuiserie fine et en placage",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 8.9,
+        "inStock": true
+      },
+      {
+        "ref": "12",
+        "familyId": "2",
+        "nameFr": "Bete (Noyer d'afrique)",
+        "nameEn": "",
+        "thickness": "0.7mm",
+        "countries": "Côte d'Ivoire, Ghana, Nigéria, Congo",
+        "description": "",
+        "usages": "Utilisé en menuiserie, en ébénisterie et parqueterie",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 9.9,
+        "inStock": true
+      },
+      {
+        "ref": "13",
+        "familyId": "7",
+        "nameFr": "Bois de rose",
+        "nameEn": "Tulipwood",
+        "thickness": "0.7mm",
+        "countries": "",
+        "description": "Bois de la famille des palissandres, coeur souvent creux",
+        "usages": "Utilisation en marqueterie (meubles de style Louis XV), couellerie, tabletterie et tournage",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 7.9,
+        "inStock": true
+      },
+      {
+        "ref": "14",
+        "familyId": "7",
+        "nameFr": "Bois de violette",
+        "nameEn": "Kingwood",
+        "thickness": "0.7mm",
+        "countries": "Brésil",
+        "description": "Bois de l famille des palissandres",
+        "usages": "Se travaille en marqueterie (associé avec le bois de rose pour les meubles de style), tabletterie, tournage",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 8.9,
+        "inStock": true
+      },
+      {
+        "ref": "15",
+        "familyId": "9",
+        "nameFr": "Bossé",
+        "nameEn": "",
+        "thickness": "0.7mm",
+        "countries": "Côte d'Ivoire, Nigéria, Cameroun, Congo, Gabon",
+        "description": "Bois homogène et résistant, à forte odeur (antimite....)",
+        "usages": "Utilisé en menuiserie interieure, en ébénisterie, construction",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 9.9,
+        "inStock": true
+      },
+      {
+        "ref": "16",
+        "familyId": "8",
+        "nameFr": "Bouleau d'Europe",
+        "nameEn": "Birch",
+        "thickness": "0.7mm",
+        "countries": "Europe du nord",
+        "description": "peut être flammé, se travaille facilement",
+        "usages": "Utilisation en tabletterie et en panneau. Se teinte facilement",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 8.9,
+        "inStock": true
+      },
+      {
+        "ref": "17",
+        "familyId": "3",
+        "nameFr": "Bouleau madré (loupe de bouleau)",
+        "nameEn": "Whorled birch",
+        "thickness": "0.7mm",
+        "countries": "Europe du nord",
+        "description": "",
+        "usages": "Utilisation exclusive en marqueterie et tabletterie",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 8.9,
+        "inStock": true
+      }, 
+      {
+        "ref": "18",
+        "familyId": "5",
+        "nameFr": "Bubinga",
+        "nameEn": "",
+        "thickness": "0.7mm",
+        "countries": "Cameroun, Gabon, Guinée, Congo",
+        "description": "Bois de contrefil et dur",
+        "usages": "Utilisé en tabletterie, coutellerie et en ébénisterie",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 7.9,
+        "inStock": true
+      },
+      {
+        "ref": "19",
+        "familyId": "3",
+        "nameFr": "Loupe de Camphrier",
+        "nameEn": "Camphorwood",
+        "thickness": "0.7mm",
+        "countries": "Inde et Vietnam",
+        "description": "Sa loupe ne sert qu'en marqueterie",
+        "usages": "Le camphrier s'emploie en menuiserie, tonnellerie et charpente.",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 8.9,
+        "inStock": true
+      },
+      {
+        "ref": "20",
+        "familyId": "8",
+        "nameFr": "Cèdre d'Amérique",
+        "nameEn": "Cedar",
+        "thickness": "0.7mm",
+        "countries": "Mexique, Surinam, Guyane, Nicaragua, Honduras, Brésil, Antilles",
+        "description": "Se caractérise par sa forte odeur",
+        "usages": "Utilisé en ameublement et en menuiserie",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 9.9,
+        "inStock": true
+      },
+      {
+        "ref": "21",
+        "familyId": "8",
+        "nameFr": "Cèdre du liban",
+        "nameEn": "Lebanon Cedar",
+        "thickness": "0.7mm",
+        "countries": "Europe",
+        "description": "Odeur forte",
+        "usages": "Se travaille en charpente et en ameublement",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 7.9,
+        "inStock": true
+      },
+      {
+        "ref": "22",
+        "familyId": "8",
+        "nameFr": "Cerejeira",
+        "nameEn": "",
+        "thickness": "0.7mm",
+        "countries": "Brésil, Bolivie, Argentine",
+        "description": "Se travaille facilement",
+        "usages": "Application dans le mobilier et en sculpture",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 8.9,
+        "inStock": true
+      },
+      {
+        "ref": "23",
+        "familyId": "5",
+        "nameFr": "Charme",
+        "nameEn": "Hornbeam",
+        "thickness": "0.7mm",
+        "countries": "France,Espagne, Italie, Angleterre, Allemagne, Turquie, Iran",
+        "description": "Se travaille difficilement, se teinte",
+        "usages": "Application dans les manche d'outils et dans les jouets en bois",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 9.9,
+        "inStock": true
+      },
+      {
+        "ref": "24",
+        "familyId": "9",
+        "nameFr": "Chataignier",
+        "nameEn": "Chestnut",
+        "thickness": "0.7mm",
+        "countries": "France, Italie, Allemagne, Angleterre",
+        "description": "Ressemble au chêne sans ses mailles",
+        "usages": "Charpente, parquet, escaliers",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 7.9,
+        "inStock": true
+      },
+      {
+        "ref": "25",
+        "familyId": "3",
+        "nameFr": "Loupe de chêne",
+        "nameEn": "Oak burl",
+        "thickness": "0.7mm",
+        "countries": "Italie, Allemagne, France, Angleterre, Espagne",
+        "description": "La loupe se trouve le plus souvent à la base du tronc",
+        "usages": "tilisation uniquement en marqueterie",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 8.9,
+        "inStock": true
+      },
+      {
+        "ref": "26",
+        "familyId": "10",
+        "nameFr": "Chêne brun",
+        "nameEn": "Brown Oak",
+        "thickness": "0.7mm",
+        "countries": "France, Angleterre",
+        "description": "Arbre malade prenant partiellement ou en totalité une couleur brune/ rougeatre",
+        "usages": "Utilisé surtout en Angleterre et aux USA comme mobilier (bureau essentiellement) ou en panneaux muraux",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 9.9,
+        "inStock": true
+      },
+      {
+        "ref": "27",
+        "familyId": "10",
+        "nameFr": "Chêne",
+        "nameEn": "Oak",
+        "thickness": "0.7mm",
+        "countries": "Italie, Allemagne, France, Angleterre, Espagne",
+        "description": "Se travaille facilement",
+        "usages": "Menuiserie, ébénisterie, charpente, construction navale, traverses de chemins de fer, tonneaux",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 7.9,
+        "inStock": true
+      },
+      {
+        "ref": "28",
+        "familyId": "8",
+        "nameFr": "Citronnier de Ceylan",
+        "nameEn": "Satinwood",
+        "thickness": "0.7mm",
+        "countries": "Sri Lanka",
+        "description": "Menuiserie décorative, ébénisterie, agencement intérieur",
+        "usages": "",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 8.9,
+        "inStock": true
+      },
+      {
+        "ref": "29",
+        "familyId": "7",
+        "nameFr": "Cocobolo",
+        "nameEn": "Costa Rica, Nicaragua, Mexique, Amérique Centrale",
+        "thickness": "0.7mm",
+        "countries": "Costa Rica, Nicaragua, Mexique, Amérique Centrale",
+        "description": "Fait partie de la famille du Palissandre replacant le palissandre de Rio",
+        "usages": "Tabletterie et coutellerie",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 9.9,
+        "inStock": true
+      },
+      {
+        "ref": "30",
+        "familyId": "5",
+        "nameFr": "Coeur dehors",
+        "nameEn": "",
+        "thickness": "0.7mm",
+        "countries": "Guyan, Surinam, Vénézuéla, Brésil",
+        "description": "Bois difficile à travailler et résistant",
+        "usages": "Menuiserie interieure. Parqueterie et Ebénisterie",
+        "format": {
+          "larg": "30cm",
+          "long": "42cm",
+          "sens": "en longueur"
+        },
+        "price": 9.9,
+        "inStock": true
+      }
+    ]
+}
