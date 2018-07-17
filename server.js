@@ -30,10 +30,11 @@ app.use('/api', router);
 
 // test route to make sure everything is working
 //(accessed at GET http://localhost:5000/api)
-router.get('/', (req, res) => {
-    console.log('entering');
-    res.json({ message: 'Server working fine!' });
-});
+// router.get('/', (req, res) => {
+//     console.log('entering');
+//     res.json({ message: 'Server working fine!' });
+//     //res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+// });
 
 router.get('/products', (req, res) => {
     console.log('getting products...');
