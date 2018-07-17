@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Prosto+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 @import "abstracts/mixins";
 @import "abstracts/variables";
 @import "base/animations";
 @import "base/base";
+@import "components/cart";
+@import "components/contact";
+@import "components/form";
 @import "components/header";
 @import "components/home";
-@import "components/contact";
+@import "components/procard";
+@import "components/product";
+@import "components/products";
+@import "components/sidebar";
 @import "layout/app";
 @import "layout/grid";
+

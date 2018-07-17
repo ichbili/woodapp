@@ -2,7 +2,11 @@ import React from 'react';
 
 const CartPage = () => (
       <div className='app-container__container'>
-         Cart Page
+         <div className="page-cart">
+            <div className="page-cart__cart">
+                Cart Page
+            </div>
+        </div>
        </div>  
 );
 

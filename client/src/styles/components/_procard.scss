@@ -1,0 +1,152 @@
+.product-card {
+  display: flex;
+  flex-flow: column;
+  width: 30rem;
+  height: 40rem;
+  box-shadow: 0 10px 30px rgba(#2c3e50, 0.5);
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+}
+  
+.price-tag {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1rem;
+  background-color: rgba(#06101a, 0.95);
+  color: #ecf0f1;
+  border-radius: 0.25rem;
+  padding: 0.1rem 0.4rem;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.product-card-description-box {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start; 
+  flex: 1 0 auto;
+  padding: 0 1rem 1.5rem 1rem;
+  box-sizing: border-box;
+  background-color: #ecf0f1;
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+  }
+}
+
+.product-card-name {
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  color: #2c3e50;
+  height: 2.5rem;
+  font-weight: 500;
+}  
+
+.product-card-name-trad {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 3px;
+  color: #2c3e50;
+  font-weight: 300;
+}
+
+.product-card-format {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: #2c3e50;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+  &__valeur {
+    text-transform: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+.product-card-description {
+  color: #95a5a6;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  flex: 1;
+} 
+
+.card-link {
+  &,
+  &:link,
+  &:visited {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #ecf0f1;
+    border-radius: 0.25rem;
+    transition: 0.8s;
+  }
+    background-color: #1a9cbc;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #164da0;
+      font-weight: 900;
+    
+  }
+}
+
+
+.card-button {
+  padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #ecf0f1;
+    border-radius: 0.25rem;
+    border: none;
+    transition: 0.8s;
+  background-color: #1abc9c;
+  &:hover{
+    background-color: #0e5547;  
+    font-weight: 900;
+  }
+  &:active,
+    &:focus {
+        outline: none;
+        background-color: #1abc9c;
+    }
+}
+
+.product-card-gallery {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  flex: 0 0 auto;
+  height: 20rem;
+  overflow: hidden;
+
+  .gallery-item {
+    position: absolute;
+    width: 100%;
+    height:100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.25rem 0.25rem 0 0;
+    opacity: 0;
+
+    transition: 1s;
+  }
+  .active {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+  

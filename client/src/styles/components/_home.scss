@@ -6,8 +6,9 @@
     flex-direction: column;
     // flex-grow: 1;
     // justify-content: center;
+    text-align: center;
     &__gtitre {
-        text-align: left;
+        //text-align: left;
         font-weight: 100;
         font-size: 4rem;
         margin: 0;
@@ -16,17 +17,19 @@
         animation-name: moveInLeft;
         animation-duration: 1s;
         animation-timing-function: ease-out;
-        
-        @include respond(phone) {
-            font-size: 2.5rem;
-            align-self: center;
+        letter-spacing: 0.4rem;
+        @include respond(tab-port) {
+            font-size: 3.2rem;
+            letter-spacing: 0.3rem;
         }
-        // @include respond(phone) {
-        //     letter-spacing: 
-        // }
+        @include respond(phone) {
+            font-size: 2.3rem;
+            letter-spacing: 0.1rem;
+        }
+        
     }
     &__ptitre {
-        text-align: left;
+        //text-align: left;
         display: block;
         font-weight: 100;
         margin: 0;
@@ -35,8 +38,12 @@
 
         animation: moveInRight 1s ease-out;
 
+        @include respond(tab-port) {
+            font-size: 2.8rem;
+        }
         @include respond(phone) {
-            letter-spacing: 0.3rem;
+            font-size: 1.9rem;
+            letter-spacing: 0.2rem;
         }
         
     }

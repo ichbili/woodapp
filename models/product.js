@@ -14,6 +14,12 @@ var schema = new Schema({
       trim: true,
       minlength: 1
   },
+  familyId: {
+    type: String,
+    required: true,
+    trim: true,
+    minlength: 1
+  },
   nameEn: {
       type: String,
       default: null

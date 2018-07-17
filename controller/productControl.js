@@ -9,6 +9,7 @@ var checkProduct = (req) => {
     countries: req.body.countries,
     description: req.body.description,
     usages: req.body.usages,
+    familyId: req.body.familyId,
     format: {
       larg: req.body.larg,
       long: req.body.long,

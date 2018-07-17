@@ -81,7 +81,7 @@ router.post('/config', (req, res) => {
   console.log('begin configuring');
   var products = req.body.products;
   var families = req.body.families;
-  if( nbrFamilies == 0 || nbrProducts == 0 ) {
+  if( products.length == 0 || families.length == 0 ) {
     res.json({ message: 'Products or Families empty' });
   } 
   else {

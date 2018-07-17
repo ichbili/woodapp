@@ -18,3 +18,6 @@ mongoose.connect(uristring,  { useNewUrlParser: true }, function (err, res) {
         console.log ('Succeeded connected to: ' + uristring);
     }
 });
+
+
+//mongodb://<dbuser>:<dbpassword>@ds233531.mlab.com:33531/woodecommerce

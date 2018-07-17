@@ -5,10 +5,18 @@
     padding: 0 10rem 0 10rem;
     flex-direction: row;
     justify-content: flex-end;
-
+    @include respond(tab-land) {
+        padding: 0 5rem 0 5rem;
+      }
+    @include respond(tab-port) {
+        padding: 0 2rem 0 2rem;
+    }
     @include respond(phone) {
         padding: 0 1rem 0 1rem;
     }
+
+    
+
     &__nav-btn {
         font-family: "Raleway", sans-serif;
         font-weight: 900;
@@ -38,7 +46,7 @@
         padding: 0 0.9rem 0 0.9rem;
         color: $color-grey-dark-2;
         border: 2px solid $color-grey-dark-3;
-        border-radius: 2rem;
+        border-radius: 1rem;
         margin: 0.5rem;
         display: flex;
         flex-direction: row;

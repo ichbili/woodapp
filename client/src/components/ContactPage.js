@@ -4,7 +4,7 @@ const ContactPage = () => (
       <div className='app-container__container'>
          <div className="page-contact">
             <div className="page-contact__contact">
-                inside
+                Contact Page
             </div>
         </div>
        </div>  
