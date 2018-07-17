@@ -5,7 +5,7 @@ mongoose.Promise = global.Promise;
 // Here we find an appropriate database to connect to, defaulting to
 // localhost if we don't find one.
 var uristring =
-    process.env.MONGOLAB_URI ||
+    process.env.MONGO_URI ||
     process.env.MONGOHQ_URL ||
     'mongodb://localhost:27017/woodecommerce';   
 
