@@ -46,7 +46,7 @@ class App extends Component {
                     <Route path="/families/:id" component={ProductsPage} />
                     <Route path="/contact" component={ContactPage} />
                     <Route path="/cart" component={CartPage} />
-                    <Route path="/product" component={ProductPage} />
+                    <Route path="/product/:ref" component={ProductPage} />
                 </Switch>
                 </div>
             </ConnectedRouter>
