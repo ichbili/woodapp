@@ -11,7 +11,7 @@ export default combineReducers({
     routing: routerReducer,
     products,
     productsPage,
-    productPage,
+    //productPage,
     cart,
     families
 });

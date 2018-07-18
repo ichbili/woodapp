@@ -5,9 +5,9 @@ import {
   LOAD_MORE_PRODUCTS_START,
   LOAD_MORE_PRODUCTS_SUCCESS,
   LOAD_MORE_PRODUCTS_FAILURE,
-  FETCH_PRODUCT_BY_ID_START,
-  FETCH_PRODUCT_BY_ID_SUCCESS,
-  FETCH_PRODUCT_BY_ID_FAILURE,
+  // FETCH_PRODUCT_BY_ID_START,
+  // FETCH_PRODUCT_BY_ID_SUCCESS,
+  // FETCH_PRODUCT_BY_ID_FAILURE,
   ADD_PRODUCT_TO_CART,
   SEARCH_PRODUCT,
   FETCH_FAMILIES_START,
@@ -62,23 +62,23 @@ export const loadMoreProducts = () => async (dispatch, getState) => {
   }
 }
 
-export const fetchProductById = (ref) => async dispatch => {
-  dispatch({type: FETCH_PRODUCT_BY_ID_START});
+// export const fetchProductById = (ref) => async dispatch => {
+//   dispatch({type: FETCH_PRODUCT_BY_ID_START});
 
-  try {
-    const product = await fetchProductByIdApi(ref);
-    dispatch({
-      type: FETCH_PRODUCT_BY_ID_SUCCESS,
-      payload: product
-    });
-  } catch (err) {
-    dispatch({
-      type: FETCH_PRODUCT_BY_ID_FAILURE,
-      payload: err,
-      error: true
-    });
-  }
-}
+//   try {
+//     const product = await fetchProductByIdApi(ref);
+//     dispatch({
+//       type: FETCH_PRODUCT_BY_ID_SUCCESS,
+//       payload: product
+//     });
+//   } catch (err) {
+//     dispatch({
+//       type: FETCH_PRODUCT_BY_ID_FAILURE,
+//       payload: err,
+//       error: true
+//     });
+//   }
+// }
 
 export const addProductToBasket = id => dispatch => {
   dispatch({
