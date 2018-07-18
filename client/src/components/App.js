@@ -40,17 +40,16 @@ class App extends Component {
             <ConnectedRouter history={history}>
             <div className='app-container'>
             <NavHeader />
-                <Switch>
-                    <Route path="/" component={HomePage} exact={true} />
-                    <Route path="/products" component={ProductsPage} />
-                    <Route path="/families/:id" component={ProductsPage} />
-                    <Route path="/contact" component={ContactPage} />
-                    <Route path="/cart" component={CartPage} />
-                    <Route path="/product/:ref" component={ProductPage} />
-                </Switch>
-                </div>
+            <Switch>
+                <Route path="/" component={HomePage} exact={true} />
+                <Route path="/products" component={ProductsPage} />
+                <Route path="/families/:id" component={ProductsPage} />
+                <Route path="/contact" component={ContactPage} />
+                <Route path="/cart" component={CartPage} />
+                <Route path="/product/:ref" component={ProductPage} />     
+            </Switch>
+        </div>
             </ConnectedRouter>
-            
         </Provider>
       
     );

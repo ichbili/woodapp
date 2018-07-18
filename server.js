@@ -49,7 +49,7 @@ router.get('/products', (req, res) => {
     });
 });
 router.get('/families', (req, res) => {
-  console.log('getting products...');
+  console.log('getting families...');
   Family.find().then((doc) => {
     res.json(doc);
   }, (err) => {
