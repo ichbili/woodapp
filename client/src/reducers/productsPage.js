@@ -26,7 +26,6 @@ export default (state = initialState, {type, payload}) => {
       return R.merge(state, {
         search: payload
       });
-
     default:
       return state;
   }

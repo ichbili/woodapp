@@ -171,6 +171,9 @@ body {
     padding: 1.1rem;
     color: #999;
     text-transform: uppercase; }
+    @media only screen and (max-width: 37.5em) {
+      .header__nav-btn {
+        font-size: 1.1rem; } }
     .header__nav-btn:hover {
       color: #ffb731; }
     .header__nav-btn--is-active {
@@ -452,6 +455,10 @@ body {
     @media only screen and (max-width: 37.5em) {
       .page-product__product {
         margin: 0 1rem 0 1rem; } }
+
+.pro-col {
+  display: flex;
+  flex-direction: column; }
 
 .page-products {
   width: 100%;

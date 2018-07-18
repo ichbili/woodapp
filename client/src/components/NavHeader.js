@@ -11,7 +11,7 @@ class NavHeader extends Component {
   componentDidMount = () => {
     this.props.fetchProducts();
     this.props.fetchFamilies();
-}
+  }
   render() {
     return(
       <div className="header">

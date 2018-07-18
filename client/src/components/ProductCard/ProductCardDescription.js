@@ -30,7 +30,7 @@ class ProductCardDescription extends React.Component {
       <button 
         onClick={() => addProductToBasket(reference)}
         className="card-button">
-        Acheter
+        Ajouter
       </button>
       <NavLink 
         to={urlProduct}

@@ -27,6 +27,7 @@ class ProductsPage extends Component {
     render() {
         const {products} = this.props;
         return(
+            (products && (
             <div className='app-container__container'>
             <div className="page-products">
             <div className="page-products__layout">
@@ -36,7 +37,7 @@ class ProductsPage extends Component {
                 </div>
             </div>
             </div>
-            </div>
+            </div>))
         );
     }
 }
